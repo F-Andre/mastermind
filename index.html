@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="mm.css">
+
+  <title>Mastermind</title>
+</head>
+<body>
+  <h1>Mastermind</h1>
+  <div id="table">
+    <button id="start">Commencer la partie</button>
+    <div id="chrono"></div>
+    <div id="message"></div>
+    <div id="jeu">
+      <div id="plateau"></div>
+      <div id="resultat"></div>
+      <div id="couleurs">
+        <div class="pion bouton green" data-color="green"></div>
+        <div class="pion bouton blue" data-color="blue"></div>
+        <div class="pion bouton red" data-color="red"></div>
+        <div class="pion bouton yellow" data-color="yellow"></div>
+        <div class="pion bouton white" data-color="white"></div>
+        <div class="pion bouton black" data-color="black"></div>
+      </div>
+    </div>
+    <button id="test">Tester</button>
+    <button id="cancel">Annuler</button>
+  </div>
+  <script src="mm.js"></script>
+</body>
+</html>
